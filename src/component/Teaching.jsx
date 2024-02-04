@@ -1,4 +1,4 @@
-import Youtube from "../assets/image/youtube.png";
+import Youtube from "../assets/image/Yt.png";
 import React from "../assets/image/React.png";
 import audio from "../assets/image/audio.png";
 import Tblog from "../assets/image/Travelblog.png";

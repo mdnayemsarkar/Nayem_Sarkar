@@ -4,7 +4,7 @@ import audio from "../assets/image/audio.png";
 import Tblog from "../assets/image/Travelblog.png";
 import Travel from "../assets/image/Travel.png";
 import Kmba from "../assets/image/kmba.png"
-import Dust from "../assets/image/dust.png"
+import Dust from "../assets/image/Dustbin.png"
 import Game from "../assets/image/Game.png"
 import Landing from "../assets/image/landingpg.png";
 import { useEffect } from "react";
@@ -95,7 +95,7 @@ const Teach = () => {
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
               {" "}
-              <a href="https://youtu.be/nIiEHficX2A">
+              <a href=" ">
                 {" "}
                 <img
                   src={audio}
@@ -115,7 +115,7 @@ const Teach = () => {
             <div className="flex justify-between mt-4 px-4">
               <a className="text-sm text-green-400 cursor-pointer ">Playlist</a>
               <a
-                href="https://youtu.be/nIiEHficX2A"
+                href=" https://landingpage-design.vercel.app/"
                 className="text-sm text-blue-500  "download={false}
               >
                 Live link..

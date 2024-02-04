@@ -1,12 +1,12 @@
 import Youtube from "../assets/image/youtube.png";
 import React from "../assets/image/React.png";
-// import lp from "../assets/video/updated11.mp4";
-// import gp from "../assets/video/GP.mp4";
-// import btn from "../assets/video/BTN.mp4";
-// import Scl from "../assets/video/scl.mp4";
-// import Tvl from "../assets/video/Tvl.mp4";
-// import Tvll from "../assets/video/Travel.mp4";
-// import Dust from "../assets/video/Dust.mp4";
+import audio from "../assets/image/audio.png";
+import Tblog from "../assets/image/Travelblog.png";
+import Travel from "../assets/image/Travel.png";
+import Kmba from "../assets/image/kmba.png"
+import Dust from "../assets/image/Dust.png"
+import Game from "../assets/image/Game.png"
+import Landing from "../assets/image/landingpg.png";
 import { useEffect } from "react";
 import gsap from "gsap";
 
@@ -55,57 +55,106 @@ const Teach = () => {
           </div>
         </div>
         {/* card  */}
-        <div className=" flex flex-col justify-center items-center gap-3 px-8 sm:flex sm:flex-row sm:justify-evenly mt-10">
-          <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
+        <div className="relative flex flex-col justify-center items-center   px-8 sm:flex sm:flex-row sm:justify-evenly mt-10">
+          <div className="relative animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
+            <a href="https://single-pg-lnding.vercel.app/">
+              {" "}
+              <img
+                src={audio}
+                alt=""
+                className="h-14 absolute top-1/3  left-32"
+              />
+            </a>
+
             <div className="h-52 w-full rounded-xl px-3 py-3">
-              <img src="" alt="" className="bg-black h-full rounded-xl" />
+              <img
+                src={Landing}
+                alt=""
+                className="bg-black h-full rounded-xl "
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
               Landing Page Design
             </div>
             <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
               <a
                 href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                className="text-sm text-green-400  cursor-pointer"
+              >
+                Playlist
+              </a>
+              <a
+                href="https://single-pg-lnding.vercel.app/"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
           {/* secound Card*/}
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-              <img src="" alt="" className="bg-black h-full rounded-xl" />
+              {" "}
+              <a href="https://youtu.be/nIiEHficX2A">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Game}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
               Landing Page Design
             </div>
             <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+              <a className="text-sm text-green-400 cursor-pointer ">Playlist</a>
               <a
-                href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
-                className="text-sm text-blue-500  "
+                href="https://youtu.be/nIiEHficX2A"
+                className="text-sm text-blue-500  "download={false}
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
           {/* third  */}
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-             <img src="" alt="" className="bg-black h-full rounded-xl"/>
+              {" "}
+              <a href="https://digital-website-one.vercel.app/">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Tblog}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
               Landing Page Design
             </div>
-            <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+            <div className="flex justify-between mt-4 px-4 ">
               <a
                 href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                className="text-sm text-green-400 cursor-pointer "
+              >
+                Playlist
+              </a>
+              <a
+                href="https://digital-website-one.vercel.app/"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
@@ -130,74 +179,142 @@ const Teach = () => {
         </div>
         {/* card  */}
         <div className="flex flex-col justify-center items-center gap-3 px-8 sm:px-28 sm:grid sm:grid-cols-3 sm:justify-evenly mt-10 ">
-        <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
+          {/* first card  */}
+          <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-             <img src="" alt="" className="bg-black h-full rounded-xl"/>
+              {" "}
+              <a href="https://reactweb-iota.vercel.app/#">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Travel}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
-              Landing Page Design
+              Travel Page Design
             </div>
             <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+              <a className="text-sm text-green-400 cursor-pointer ">Playlist</a>
               <a
-                href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                href="https://reactweb-iota.vercel.app/#"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
-          {/* sub card  */}
+          {/* third  */}
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-             <img src="" alt="" className="bg-black h-full rounded-xl"/>
+              {" "}
+              <a href="https://digital-website-one.vercel.app/">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Tblog}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
               Landing Page Design
             </div>
-            <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+            <div className="flex justify-between mt-4 px-4 ">
               <a
                 href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                className="text-sm text-green-400 cursor-pointer "
+              >
+                Playlist
+              </a>
+              <a
+                href="https://digital-website-one.vercel.app/"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
-          {/* sub card */}
+          {/*3rd card */}
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-             <img src="" alt="" className="bg-black h-full rounded-xl"/>
+              {" "}
+              <a href="https://mbksk-scl.vercel.app/">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Kmba}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
-              Landing Page Design
+              School Page Design
             </div>
-            <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+            <div className="flex justify-between mt-4 px-4 ">
               <a
                 href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                className="text-sm text-green-400 cursor-pointer "
+              >
+                Playlist
+              </a>
+              <a
+                href="https://mbksk-scl.vercel.app//"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>
-          {/* sub card  */}
+          {/* 4th card  */}
           <div className=" animate-this1 h-72 w-80 rounded-xl shadow-xl shadow-blue-50">
             <div className="h-52 w-full rounded-xl px-3 py-3">
-             <img src="" alt="" className="bg-black h-full rounded-xl"/>
+              {" "}
+              <a href="https://soft-horse-076568.netlify.app/">
+                {" "}
+                <img
+                  src={audio}
+                  alt=""
+                  className="h-14 absolute top-1/3  left-32"
+                />
+              </a>
+              <img
+                src={Dust}
+                alt=""
+                className="bg-black h-full w-full rounded-xl"
+              />
             </div>
             <div className=" font-sans font-extrabold text-gray-700  pl-4">
               Landing Page Design
             </div>
-            <div className="flex justify-between mt-4 px-4">
-              <p className="text-sm text-green-400  ">Playlist</p>
+            <div className="flex justify-between mt-4 px-4 ">
               <a
                 href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPLUU_WNDVUs0diMlX4BIfxc4c4ALD945KN%26si%3D1J4GFaVn26QjF8cg%26fbclid%3DIwAR2APwv4yHDR9gknZKg15WG6JLXPAuqGFhJolu-pEJOtzJel4cJp4Mn5o38&h=AT2Ei53bucC4noPHhCRLm47yp2HV_OesLe54bp5NvzoKcPWujY0gxdiUDAcam_UTy0nD66Aej6tRYg7mGH1sA9rUfB_GLQ2WmJfFDgGQQAXS8PLv-_tqTvKOAQyThT5-4RNP2g"
+                className="text-sm text-green-400 cursor-pointer "
+              >
+                Playlist
+              </a>
+              <a
+                href="https://soft-horse-076568.netlify.app/"
                 className="text-sm text-blue-500  "
               >
-                CLick Here..
+                Live link..
               </a>
             </div>
           </div>

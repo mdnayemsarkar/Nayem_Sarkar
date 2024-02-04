@@ -4,7 +4,7 @@ import audio from "../assets/image/audio.png";
 import Tblog from "../assets/image/Travelblog.png";
 import Travel from "../assets/image/Travel.png";
 import Kmba from "../assets/image/kmba.png"
-import Dust from "../assets/image/Dust.png"
+import Dust from "../assets/image/dust.png"
 import Game from "../assets/image/Game.png"
 import Landing from "../assets/image/landingpg.png";
 import { useEffect } from "react";
